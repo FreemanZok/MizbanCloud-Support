@@ -1,0 +1,43 @@
+{
+	"domains": {
+		"getWebsites": "/cdn/websites",
+		"submitNewDomain": "/cdn/ng/domains",
+		"getDomains": "/cdn/ng/domains",
+		"deleteDomain": "/cdn/ng/domains/{domain_id}",
+		"getDnsRecords": "/cdn/ng/domains/{domain_id}/dns",
+		"dnsSec": "/cdn/ng/domains/{domain_id}/dns/dnssec",
+		"createDnsRecord": "/cdn/ng/domains/{domain_id}/dns",
+		"updateDnsRecord": "/cdn/ng/domains/{domain_id}/dns",
+		"uploadFile": "/cdn/ng/domains/{domain_id}/dns/import",
+		"deleteDnsRecord": "/cdn/ng/domains/{domain_id}/dns/{record_id}",
+		"getDomainSelf": "/cdn/ng/domains/{domain_id}",
+		"getDomainDnsRecords": "/cdn/domains/dns",
+		"addDomainDnsRecord": "/cdn/domains/dns",
+		"editDomainDnsRecord": "/cdn/domains/dns/{record_id}",
+		"deleteDomainDnsRecord": "/cdn/domains/dns/{record_id}",
+		"getDomainMainRecord": "/cdn/domains/dns/webid",
+		"getDomainSecure": "/cdn/domains/dns/secure",
+		"setDnsSecStatus": "/cdn/domains/dns/secure",
+		"getDomainRecordClusters": "/cdn/domains/dns/balancer",
+		"getDomainNameServers": "/cdn/domains/dns/nameservers",
+		"updateDomainNameServers": "/cdn/domains/dns/nameservers",
+		"changeCloudStatus": "/cdn/domains/dns/proxy",
+		"downloadZoneFile": "/cdn/domains/dns/dns/download/zone-file",
+		"uploadZoneFile": "/cdn/domains/dns/dns/upload/zone-file"
+	},
+	"cluster": {
+		"getClusters": "/cdn/cluster",
+		"addCluster": "/cdn/cluster",
+		"updateCluster": "/cdn/cluster/{cluster_id}",
+		"deleteCluster": "/cdn/cluster/{cluster_id}",
+		"addSubCluster": "/cdn/cluster/{cluster_id}/servers",
+		"updateSubCluster": "/cdn/cluster/{cluster_id}/servers/{server_id}",
+		"deleteSubCluster": "/cdn/cluster/{cluster_id}/servers",
+		"assignCluster": "/cdn/cluster"
+	},
+	"plans": {
+		"getDnsPlans": "/cdn/plans",
+		"getPlans": "/cdn/ng/plans",
+		"submitPlan": "/cdn/ng/plans"
+	}
+}

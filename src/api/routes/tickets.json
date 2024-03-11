@@ -1,0 +1,16 @@
+{
+	"plansView": "/support/plans",
+	"mainView": "/support/tickets",
+	"storeTicket": "/support/tickets",
+	"changeTicketReplyRate": "/support/tickets/rate/{ticket_reply_id}/{rate}",
+	"singleView": "/support/tickets/{id}",
+	"fileUploader": "/support/tickets/file-uploader",
+	"storeReply": "/support/tickets/reply",
+	"getFile": "/support/tickets/file-api/{static_slug}",
+	"openTicket": "/support/tickets/change-status/open-ticket/{ticket_id}",
+	"closeTicket": "/support/tickets/change-status/close-ticket/{ticket_id}",
+	"getServices": "/support/tickets/services",
+	"getDepartments": "/support/tickets/departments",
+	"getAllTickets": "/support/tickets-rest",
+	"getOneTicket": "/support/tickets-rest/{ticket_id}?opened_count=100&closed_count=100"
+}

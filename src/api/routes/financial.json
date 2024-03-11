@@ -1,0 +1,31 @@
+{
+	"wallet": {
+		"get": "/financial/wallet",
+		"change": "/financial/wallet"
+	},
+	"billing": {
+		"getBalanceData": "/financial/billing/balance",
+		"addBalance": "/financial/billing/balance",
+		"getGateways": "/financial/billing/gateways",
+		"getInvoices": "/financial/invoices",
+		"getPaymentHistory": "/financial/billing/payments",
+		"getTransactions": "/financial/transactions",
+		"getBanksGateWay": "/financial/banks",
+		"goCheckCoupon": "/submit/financial/check-coupon",
+		"goPayMoney": "/submit/financial/add-funds"
+	},
+	"reports": {
+		"getUsageData": "/financial/reports/usage"
+	},
+	"price": {
+		"getPrices": "/financial/price",
+		"getCustomPrices": "/financial/price"
+	},
+	"financial": {
+		"getLastInvoice": "/financial/last-invoice",
+		"getInvoices": "/financial/invoices",
+		"getTransactions": "/financial/transactions",
+		"getWallet": "/financial/wallet",
+		"getBanks": "/financial/banks"
+	}
+}

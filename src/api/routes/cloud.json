@@ -1,0 +1,63 @@
+{
+	"servers": {
+		"createNewServer": "/cloud/servers",
+		"getListOfServers": "/cloud/servers",
+		"getServerInformation": "/cloud/servers/{server_id}",
+		"rebuildServerSoftware": "/cloud/servers/{server_id}/rebuild/software",
+		"rebuildServerHardware": "/cloud/servers/{server_id}/rebuild/hardware",
+		"getServerVnc": "/cloud/servers/{server_id}/access/vnc",
+		"turnOnServer": "/cloud/servers/{server_id}/power/on",
+		"turnOffServer": "/cloud/servers/{server_id}/power/off",
+		"rebootServer": "/cloud/servers/{server_id}/power/reboot",
+		"restartServer": "/cloud/servers/{server_id}/power/restart",
+		"enableAutopilotOnServer": "/cloud/servers/{server_id}/autopilot/enable",
+		"disableAutopilotOnServer": "/cloud/servers/{server_id}/autopilot/disable",
+		"getServerLogs": "/cloud/servers/{server_id}/logs",
+		"getServerReports": "/cloud/servers/{server_id}/reports",
+		"resetServerPassword": "/cloud/servers/{server_id}/reset-password",
+		"getServerPassword": "/cloud/servers/{server_id}/get-password",
+		"enableRescueMode": "/cloud/servers/{server_id}/rescue",
+		"disableRescueMode": "/cloud/servers/{server_id}/unrescue",
+		"permenantServer": "/cloud/servers/{server_id}/permenant",
+		"getServerState": "/cloud/servers/{server_id}/state",
+		"?pollServer": "/cloud/servers/{server_id}/poll",
+		"deleteServer": "/cloud/servers/{server_id}",
+		"getTraffics": "/cloud/traffics"
+	},
+	"volumes": {
+		"createNewVolume": "/cloud/volumes",
+		"getListOfVolumes": "/cloud/volumes",
+		"getVolumeInformation": "/cloud/volumes/{volume_id}",
+		"attachVolume": "/cloud/volumes/attach",
+		"detachVolume": "/cloud/volumes/dettach",
+		"editVolume": "/cloud/volumes/{volume_id}",
+		"deleteVolume": "/cloud/volumes/{volume_id}"
+	},
+	"snapshots": {
+		"getSnapshots": "/cloud/snapshots",
+		"createSnapshot": "/cloud/snapshots",
+		"getSnapshotInformation": "/cloud/snapshots/{snapshot_id}",
+		"deleteSnapshot": "/cloud/snapshots/{snapshot_id}"
+	},
+	"ssh": {
+		"createNewSshkey": "/cloud/ssh",
+		"getListOfSshkeys": "/cloud/ssh",
+		"getSshkeyInformation": "/cloud/ssh/{key_id}",
+		"deleteSshkey": "/cloud/ssh/{key_id}",
+		"getRandomSshkey": "/cloud/ssh/random"
+	},
+	"firewall": {
+		"createNewFirewall": "/cloud/firewall",
+		"addNewRule": "/cloud/firewall/rule",
+		"getListOfFirewalls": "/cloud/firewall",
+		"deleteRule": "/cloud/firewall/rule/{rule_id}",
+		"deleteFirewall": "/cloud/firewall/{firewall_id}"
+	},
+	"staticData": {
+		"getDataCenters": "/static/datacenters",
+		"getOperatingSystems": "/static/os-list"
+	},
+	"charts": {
+		"getServerChart": "/submit/cloud/servers/charts/{chart_number}"
+	}
+}
