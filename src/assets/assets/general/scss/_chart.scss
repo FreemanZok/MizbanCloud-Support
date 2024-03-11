@@ -1,0 +1,31 @@
+.chart-status-blue {
+    &::before {
+        content: url("/src/assets/general/images/root/bullet_blue.svg");
+        margin-left: 5px;
+        margin-top: 2px !important;
+    }
+}
+
+.chart-status-success {
+    &::before {
+        content: url("/src/assets/general/images/root/bullet_green.svg");
+        margin-left: 5px;
+        margin-top: 2px !important;
+    }
+}
+
+.chart-status-warning {
+    &::before {
+        content: url("/src/assets/general/images/root/bullet_orange.svg");
+        margin-left: 5px;
+        margin-top: 2px !important;
+    }
+}
+
+.chart-status-danger {
+    &::before {
+        content: url("/src/assets/general/images/root/bullet_pink.svg");
+        margin-left: 5px;
+        margin-top: 2px !important;
+    }
+}

@@ -1,0 +1,185 @@
+.btn-white-100 {
+     color: $black-800 !important;
+     background-color: $light-100 !important;
+     border-color: $black-800 !important;
+}
+
+.btn-blue-100 {
+     color: $blue-700 !important;
+     background-color: $blue-80 !important;
+     border-color: $blue-700 !important;
+}
+
+//btn-grd-blue-700-to-blue-100
+.btn-grd-blue-700-to-blue-100-0 {
+     color: $light-100 !important;
+     background: $blue-700;
+     background: linear-gradient(0deg, $blue-700 0%, $blue-100 100%);
+     border-color: $blue-700 !important;
+}
+
+.btn-grd-blue-700-to-blue-100-45 {
+     color: $light-100 !important;
+     background: $blue-700;
+     background: linear-gradient(45deg, $blue-700 0%, $blue-100 100%);
+     border-color: $blue-700 !important;
+}
+
+.btn-grd-blue-700-to-blue-100-90 {
+     color: $light-100 !important;
+     background: $blue-700;
+     background: linear-gradient(-90deg, $blue-700 0%, $blue-100 100%);
+     border-color: $blue-700 !important;
+}
+
+.btn-grd-blue-100-to-blue-500-80 {
+     color: $light-100 !important;
+     background: $blue-100;
+     background: linear-gradient(80deg, $blue-100 0%, $blue-500 100%);
+     border-color: $blue-100 !important;
+}
+
+.btn-grd-blue-700-to-blue-100-180 {
+     color: $light-100 !important;
+     background: $blue-700;
+     background: linear-gradient(180deg, $blue-700 0%, $blue-100 100%);
+     border-color: $blue-700 !important;
+}
+
+//btn-grd-purple-600-to-purple-200
+.btn-grd-purple-600-to-purple-200-0 {
+     color: $light-100 !important;
+     background: $purple-600;
+     background: linear-gradient(0deg, $purple-600 0%, $purple-200 100%);
+     border-color: $purple-600 !important;
+}
+
+.btn-grd-purple-600-to-purple-200-45 {
+     color: $light-100 !important;
+     background: $purple-600;
+     background: linear-gradient(45deg, $purple-600 0%, $purple-200 100%);
+     border-color: $purple-600 !important;
+}
+
+.btn-grd-purple-600-to-purple-200-90 {
+     color: $light-100 !important;
+     background: $purple-600;
+     background: linear-gradient(-90deg, $purple-600 0%, $purple-200 100%);
+     border-color: $purple-600 !important;
+}
+
+.btn-grd-purple-600-to-purple-200-180 {
+     color: $light-100 !important;
+     background: $purple-600;
+     background: linear-gradient(180deg, $purple-600 0%, $purple-200 100%);
+     border-color: $purple-600 !important;
+}
+
+//btn-grd-pink-400-to-orange-300
+.btn-grd-pink-400-to-orange-300-0 {
+     color: $light-100 !important;
+     background: $pink-400;
+     background: linear-gradient(0deg, $pink-400 0%, $orange-300 100%);
+     border-color: $pink-400 !important;
+}
+
+.btn-grd-pink-400-to-orange-300-45 {
+     color: $light-100 !important;
+     background: $pink-400;
+     background: linear-gradient(45deg, $pink-400 0%, $orange-300 100%);
+     border-color: $pink-400 !important;
+}
+
+.btn-grd-pink-400-to-orange-300-90 {
+     color: $light-100 !important;
+     background: $pink-400;
+     background: linear-gradient(-90deg, $pink-400 0%, $orange-300 100%);
+     border-color: $pink-400 !important;
+}
+
+.btn-grd-pink-400-to-orange-300-180 {
+     color: $light-100 !important;
+     background: $pink-400;
+     background: linear-gradient(180deg, $pink-400 0%, $orange-300 100%);
+     border-color: $pink-400 !important;
+}
+.btn-sm-50 {
+     font-size: 11px;
+     font-weight: 600;
+     min-width: 91px;
+     padding: 5px 10px;
+     word-spacing: -0.1rem;
+}
+.btn-sm-100 {
+     font-size: 13px;
+     min-width: 100px;
+     padding: 5px 10px;
+}
+.btn-nav {
+     height: 39px;
+     width: 39px;
+}
+.btn-sm-100-icon {
+     height: 31px;
+     font-size: 12px;
+     word-spacing: -0.18rem;
+     min-width: 100px;
+     padding: 0 0 0 14px;
+}
+.btn-sm-100-arrow {
+     font-size: 11px;
+     font-weight: 600;
+     min-width: 100px;
+     padding: 5px 10px;
+     word-spacing: -0.1rem;
+     img {
+          margin-left: 4px !important;
+          margin-top: -3px;
+     }
+}
+
+.btn-dropdown {
+     display: flex;
+     justify-content: center;
+     margin: 20px auto;
+}
+
+// box shadow for btn check
+.btn-check-tick.btn-check-grd-blue-700-to-blue-100-45:checked + .btn-check-lable {
+     box-shadow: 0.1rem 0 25rem 0.01rem$blue-100, -0.01rem 0 0.7rem 0.01rem $blue-o-700 !important;
+     -moz-box-shadow: 0.1rem 0 25rem 0.01rem $blue-100, -0.01rem 0 0.7rem 0.01rem $blue-o-700 !important;
+     -webkit-box-shadow: 0.1rem 0 25rem 0.01rem $blue-100, -0.01rem 0 0.7rem 0.01rem $blue-o-700 !important;
+}
+
+.btn-check-tick.btn-check-grd-orange-300-to-yellow-500-45:checked + .btn-check-lable {
+     box-shadow: 0.1rem 0 25rem 0.01rem $orange-300, -0.01rem 0 0.7rem 0.01rem $yellow-500 !important;
+     -moz-box-shadow: 0.1rem 0 25rem 0.01rem $orange-300, -0.01rem 0 0.7rem 0.01rem $yellow-500 !important;
+     -webkit-box-shadow: 0.1rem 0 25rem 0.01rem $orange-300, -0.01rem 0 0.7rem 0.01rem $yellow-500 !important;
+}
+
+.btn-group-blue {
+     padding: 0.3rem !important;
+     overflow: hidden;
+
+     button {
+          @include transition25;
+     }
+     .active {
+          @include transition25;
+          background: $blue-100;
+          background: linear-gradient(80deg, $blue-100 0%, $blue-500 80%);
+          color: $light-100;
+          -webkit-box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef14,
+               -0px -0px 0px -0px rgba(0, 0, 0, 0) !important;
+          box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef14, -0px -0px 0px -0px rgba(0, 0, 0, 0) !important;
+     }
+}
+
+.btn-shadow-blue-100-blue-700 {
+     -webkit-box-shadow: 0px 0px 10px 15px #269bde00,0px 0px 10px 15px #6bd5ef14,0px 0px 0px 0px rgba(0,0,0,0.18) !important;
+     box-shadow: 0px 0px 10px 15px #269bde00,0px 0px 10px 15px #6bd5ef14,0px 0px 0px 0px rgba(0,0,0,0.18) !important;
+     &:focus{
+          -webkit-box-shadow: 0px 0px 10px 15px #269bde00,0px 0px 10px 15px #6bd5ef14,0px 0px 0px 0px rgba(0,0,0,0.18) !important;
+          box-shadow: 0px 0px 10px 15px #269bde00,0px 0px 10px 15px #6bd5ef14,0px 0px 0px 0px rgba(0,0,0,0.18) !important;   
+     }
+}

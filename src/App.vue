@@ -4,7 +4,7 @@
 
 <template>
   <div>
-
+    hello this is app.vue
   </div>
   <router-view />
 </template>

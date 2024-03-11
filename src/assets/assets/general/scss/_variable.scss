@@ -1,0 +1,168 @@
+//Base Color
+$black-800: #111;
+$black-900: #000;
+
+$gray-100: #bfceda;
+$gray-150: #D1DCEB;
+$gray-200: #aeafb1;
+$gray-300: #9eaab4;
+$gray-400: #75848F;
+$gray-500: #888;
+$gray-600: #5A6773;
+$gray-700: #575757;
+$gray-800: #444;
+$gray-900: #333;
+
+$blue-80: #e6f3fc;
+$blue-90: #d2edf6;
+$blue-95: #d2e7fc;
+$blue-o-100: #6bd5ef09;
+$blue-100: #6bd5ef;
+$blue-150: #6cd2f0;
+$blue-200: #7fcef2;
+$blue-250: #76b6f5;
+$blue-300: #5cb9e8;
+$blue-400: #48b1e5;
+$blue-500: #7caff2;
+$blue-600: #299cdf;
+$blue-700: #1693DC;
+$blue-o-700: #269bde0a;
+$blue-750: #498eec;
+$blue-780: #6797ef;
+$blue-o-800: #5479ce0e;
+$blue-800: #5478c6;
+$blue-900: #3f567a;
+
+$green-300: #bede7f;
+$green-400: #a9cf7b;
+$green-700: #438E2B;
+
+$pink-100: #fbcdc5;
+$pink-200: #f9bdc6;
+$pink-o-200: #f9bdc6;
+$pink-300: #f96d89;
+$pink-o-350: #e1317905;
+$pink-350: #e13179;
+$pink-400: #e1337a;
+$pink-500: #c9286a;
+
+$red-400: #d92852;
+$red-500: #c1272d;
+
+$orange-o-300: #f4806e13;
+$orange-300: #f47f6e;
+$orange-500: #f15e4f;
+
+$yellow-300: #fddeb5;
+$yellow-500: #efc570;
+
+$purple-o-200: #ae89f311;
+$purple-100: #B18DF1;
+$purple-200: #ae89f3;
+$purple-300: #b085f9;
+$purple-600: #8478d1;
+
+$light-100: #fff;
+$light-150: #fefeff;
+$light-200: #f2f2f2;
+$light-240: #F6F6F8;
+$light-250: #f0f0f0;
+$light-300: #e9edef;
+$light-350: #edeff4;
+$light-400: #e7e9eb;
+$light-500: #e6e9f0;
+
+$navy-blue-400: #6c7e9a;
+$navy-blue-600: #5e7190;
+
+@mixin dropdownBoxShadow {
+     -webkit-box-shadow: 0px 0px 10px 0px rgba(229, 229, 229, 0.26);
+     -moz-box-shadow: 0px 0px 10px 0px rgba(229, 229, 229, 0.26);
+     box-shadow: 0px 0px 10px 0px rgba(229, 229, 229, 0.26);
+}
+
+@mixin cardSmBoxShadow {
+     -webkit-box-shadow: 0px 5px 10px 1px rgba(229, 229, 229, 0.26);
+     -moz-box-shadow: 0px 5px 10px 1px rgba(229, 229, 229, 0.26);
+     box-shadow: 0px 5px 10px 1px rgba(229, 229, 229, 0.26);
+}
+@mixin cardMdBoxShadow {
+     -webkit-box-shadow: 0px -1px 10px 1px rgba(229, 229, 229, 0.26);
+     -moz-box-shadow: 0px -1px 10px 1px rgba(229, 229, 229, 0.26);
+     box-shadow: 0px -1px 10px 1px rgba(229, 229, 229, 0.26);
+}
+@mixin cardLgBoxShadow {
+     -webkit-box-shadow: 0px -1px 10px 1px rgba(229, 229, 229, 0.26);
+     -moz-box-shadow: 0px -1px 10px 1px rgba(229, 229, 229, 0.26);
+     box-shadow: 0px -1px 10px 1px rgba(229, 229, 229, 0.26);
+}
+@mixin asideShadow {
+     -webkit-box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.13);
+     -moz-box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.13);
+     box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.13);
+}
+@mixin breadcrumbBoxShadow {
+     -webkit-box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.03);
+     -moz-box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.03);
+     box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.03);
+}
+
+@mixin SBoxShadow {
+     -webkit-box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.03);
+     -moz-box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.03);
+     box-shadow: 0px -1px 10px 1px rgba(208, 197, 197, 0.03);
+}
+
+@mixin transition {
+     -webkit-transition-property: all;
+     transition-property: all;
+     -webkit-transition-duration: 0.3s;
+     transition-duration: 0.3s;
+     -webkit-transition-timing-function: ease-out;
+     transition-timing-function: ease-out;
+}
+@mixin transition25 {
+     -webkit-transition-property: all;
+     transition-property: all;
+     -webkit-transition-duration: 0.25s;
+     transition-duration: 0.25s;
+     -webkit-transition-timing-function: ease-out;
+     transition-timing-function: ease-out;
+}
+
+@mixin activelineTransition {
+     -webkit-transition-property: all;
+     transition-property: all;
+     -webkit-transition-duration: 2s;
+     transition-duration: 2s;
+     -webkit-transition-timing-function: ease-out;
+     transition-timing-function: ease-out;
+}
+
+@mixin activelineTicketTransition {
+     -webkit-transition-property: all;
+     transition-property: all;
+     -webkit-transition-duration: 4s;
+     transition-duration: 4s;
+     -webkit-transition-timing-function: ease-out;
+     transition-timing-function: ease-out;
+}
+
+@mixin asideTransition {
+     transition-property: top, bottom, width;
+     transition-duration: 0.2s, 0.2s, 0.35s;
+     transition-timing-function: linear, linear, ease;
+     -webkit-overflow-scrolling: touch;
+}
+
+@mixin DdownBoxShadow {
+     -webkit-box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.04);
+     -moz-box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.04);
+     box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.04);
+     &:focus {
+          outline: none !important;
+          -webkit-box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.04);
+          -moz-box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px -1px 10px 1px rgba(0, 0, 0, 0.04);
+     }
+}

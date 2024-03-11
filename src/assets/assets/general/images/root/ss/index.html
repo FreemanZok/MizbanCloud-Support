@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/kendo/css/kendo.common.min.css">
+    <link rel="stylesheet" href="/kendo/css/kendo.default.min.css">
+    <link rel="stylesheet" href="/kendo/css/kendo.mobile.all.min.css">
+    <link rel="stylesheet" href="/kendo/css/kendo.rtl.min.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <div class="k-rtl k-blue-rtl">
+        <input id="sliderRtl" class="temperature"/>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/jquery.js"></script>
+    <script src="/kendo/js/kendo.all.min.js"></script>
+    <script src="/kendo/js/kendo.culture.fa.min.js"></script>
+<!-- kendo Slider -->
+<script>
+    kendo.culture("fa-IR");
+    //id sliderRtl
+    $(document).ready(function () {
+       $("#sliderRtl").kendoSlider({
+          min: 0,
+          max: 480000,
+          smallStep: 1,
+          largeStep: 10,
+          value: 112000,
+          showButtons: false,
+          dragHandleTitle: "",
+          offset: 500,
+          tooltip: {
+             format: "{0:############}",
+          }
+       });
+       var slider = $("#sliderRtl").getKendoSlider();
+       slider.wrapper.css("width", "354px");
+       slider.resize();
+    });
+
+    //id sliderRtl 2
+    $(document).ready(function () {
+       $("#sliderRtl2").kendoSlider({
+          min: 0,
+          max: 480000,
+          smallStep: 1,
+          largeStep: 10,
+          value: 220000,
+          showButtons: false,
+          dragHandleTitle: "",
+          offset: 500,
+          tooltip: {
+             format: "{0:############}",
+          }
+       });
+       var slider = $("#sliderRtl2").getKendoSlider();
+       slider.wrapper.css("width", "354px");
+       slider.resize();
+    });
+
+    //id sliderLtr
+    $(document).ready(function () {
+       $("#sliderLtr").kendoSlider({
+          min: 0,
+          max: 128,
+          smallStep: 1,
+          largeStep: 1,
+          value: 32,
+          showButtons: false,
+          dragHandleTitle: "",
+          tooltip: {
+             format: "{0:############}"
+          }
+       });
+       var slider = $("#sliderLtr").getKendoSlider();
+       slider.wrapper.css("width", "177px");
+       slider.resize();
+    });
+
+    //id sliderLtr 2
+    $(document).ready(function () {
+       $("#sliderLtr2").kendoSlider({
+          min: 0,
+          max: 128,
+          smallStep: 1,
+          largeStep: 1,
+          value: 64,
+          showButtons: false,
+          dragHandleTitle: "",
+          tooltip: {
+             format: "{0:############}"
+          }
+       });
+       var slider = $("#sliderLtr2").getKendoSlider();
+       slider.wrapper.css("width", "177px");
+       slider.resize();
+    });
+ </script>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+// btn check
+.btn-check-lable {
+     width        : 18px;
+     height       : 18px;
+     padding      : 0 !important;
+     margin       : 0 !important;
+     border-radius: .15rem;
+}
+
+.btn-check+.btn-check-lable {
+     border-color: none;
+     box-shadow  : none !important;
+}
+
+.btn-check:checked+.btn-check-lable {
+     border-color: none;
+}
+
+// btn check radio
+.btn-check-radio-lable {
+     width        : 19px;
+     height       : 19px;
+     padding      : 0 !important;
+     margin       : 0 !important;
+     border-radius: 50%;
+}
+
+.btn-check-radio+.btn-check-radio-lable {
+     border-color: none;
+     box-shadow  : none !important;
+}
+
+.btn-check-radio:checked+.btn-check-radio-lable {
+     border-color: none;
+}
+
+
+//check tick
+.btn-check-tick+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox_tick_emp.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+.btn-check-tick:checked+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox_tick.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+//check plus
+.btn-check-plus+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox-plus.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+.btn-check-plus:checked+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox-plus.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+//check negative
+.btn-check-negative+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox-negative.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+.btn-check-negative:checked+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox-negative.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+//check plus negative
+.btn-check-plus-negative+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox-negative.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+.btn-check-plus-negative:checked+.btn-check-lable {
+     &::before {
+          content: url('/assets/images/root/checkbox-plus.png');
+          width  : 18px;
+          height : 18px;
+          display: block;
+     }
+}
+
+//check plus radio
+.btn-check-radio+.btn-check-radio-lable {
+     &::before {
+          content: url('/assets/images/root/radio-button-emp.png');
+          width  : 19px;
+          height : 19px;
+          display: block;
+     }
+}
+
+.btn-check-radio:checked+.btn-check-radio-lable {
+     &::before {
+          content: url('/assets/images/root/radio-button-active.png');
+          width  : 19px;
+          height : 19px;
+          display: block;
+     }
+}
+
+
+// form switch
+.form-switch .form-check-input {
+     &:focus {
+          box-shadow: none !important;
+          outline   : none !important;
+     }
+
+     &:focus-visible {
+          box-shadow: none !important;
+          outline   : none !important;
+     }
+
+     border: none;
+}
+
+.form-switch .form-check-input {
+     width              : 2.7em;
+     margin-right       : -2.7em;
+     background-position: right center;
+     border-radius      : 2em;
+     padding            : 10px 5px;
+     background-image   : url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e"),
+          linear-gradient(-90deg, $gray-300 0%, $gray-100 100%) !important;
+     transition: background-position .15s ease-in-out;
+     cursor    : pointer;
+}
+
+.form-switch .form-check-input:checked {
+     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e"),
+          linear-gradient(180deg, $blue-250 0%, $blue-100 100%) !important;
+}
+
+// box shadow for form switch
+.form-switch .form-check-input:checked {
+     -webkit-box-shadow: 0.1rem 0 25rem 0.01rem $blue-100, -0.01rem 0 0.7rem 0.01rem $blue-o-700 !important;
+     -moz-box-shadow   : 0.1rem 0 25rem 0.01rem $blue-100, -0.01rem 0 0.7rem 0.01rem $blue-o-700 !important;
+     box-shadow        : 0.1rem 0 25rem 0.01rem$blue-100, -0.01rem 0 0.7rem 0.01rem $blue-o-700 !important;
+}

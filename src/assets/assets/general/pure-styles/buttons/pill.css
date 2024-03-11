@@ -1,0 +1,62 @@
+@keyframes btnHoverShadow {
+  from {
+    opacity: 1;
+    color: white !important;
+  }
+  to {
+    color: #1c1f23 !important;
+    opacity: 0.8;
+  }
+}
+
+#loginButton:hover, #resetSMS, #sNewpass , #registerButton:hover{
+  animation-name: btnHoverShadow !important;
+  animation-timing-function: ease-out !important;
+  animation-duration: 1s !important;
+  animation-direction: alternate !important;
+  animation-iteration-count: infinite !important;
+}
+#loginButton:before, #resetSMS:before, #sNewpass:before , #registerButton:before{
+  -webkit-box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef09, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef09, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important
+}
+#loginButton, #resetSMS, #sNewpass , #registerButton{
+  -webkit-box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef09, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef09, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important
+}
+#loginButton:after, #resetSMS:after, #sNewpass:after , #registerButton:after{
+  -webkit-box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef09, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef09, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important
+}
+
+
+
+
+
+.btn-group-blue {
+  padding: 0.3rem !important;
+  overflow: hidden
+}
+
+.btn-group-blue button {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out
+}
+
+.btn-group-blue .active {
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.15s;
+  transition-duration: 0.15s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  background: #6bd5ef;
+  background: linear-gradient(80deg, #6bd5ef 0%, #7caff2 80%);
+  color: #fff !important;
+  -webkit-box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef14, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important;
+  box-shadow: 0px 0px 10px 15px #269bde0a, 0px 0px 10px 15px #6bd5ef14, 0px 0px 0px 0px rgba(0, 0, 0, 0) !important
+}

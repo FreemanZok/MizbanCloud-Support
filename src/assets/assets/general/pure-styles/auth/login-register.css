@@ -1,0 +1,227 @@
+@keyframes fadeOut {
+  from {
+    top: 2;
+  }
+  to {
+    top: -500px;
+  }
+}
+
+.fader {
+  animation: fadeOut;
+  animation-duration: 5s;
+}
+
+.loginSize {
+  height: 590px !important;
+  min-height: 590px !important;
+  max-height: 590px !important;
+}
+
+.bDisable {
+  cursor: not-allowed !important;
+  opacity: 0.5;
+}
+
+.bEnabled {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.d-invisible {
+  visibility: hidden;
+}
+
+.btn-check-tick + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox_tick_emp2.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.btn-check-tick:checked + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox_tick2.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.btn-check-plus + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox-plus.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.btn-check-plus:checked + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox-plus.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.btn-check-negative + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox-negative.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.btn-check-negative:checked + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox-negative.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.btn-check-plus-negative + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox-negative.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.btn-check-plus-negative:checked + .checkbox17px::before {
+  content: url("@/assets/general/images/root/checkbox-plus.png");
+  width: 17px !important;
+  height: 17px !important;
+  display: block;
+}
+
+.checkbox17px {
+  display: inline-block !important;
+  border: none !important;
+  width: 17px !important;
+  height: 17px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 0.15rem;
+}
+
+btn-check-tick2 {
+  width: 17px !important;
+  height: 17px !important;
+  background-color: whitesmoke;
+}
+
+.btn-check + .checkbox17px {
+  border-color: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn-check:checked + .checkbox17px {
+  border-color: none;
+}
+
+/*#helmet {*/
+/*background-color: #0a53be;*/
+/*}*/
+#loginNotifications,
+#gNotifications,
+#successVR {
+  position: absolute;
+  top: 70px;
+  right: 40%;
+  text-align: center;
+  width: 25vw;
+}
+
+@media only screen and (max-width: 600px) {
+  #loginNotifications,
+  #gNotifications,
+  #successVR {
+    right: 20vw;
+    left: 20vw;
+    align-content: center;
+    position: fixed;
+    top: 10px;
+    z-index: 999;
+  }
+}
+
+.login-form::-webkit-scrollbar {
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 400px) {
+  #formZoneRegister input {
+    margin-bottom: 30px;
+  }
+}
+
+#backBtn {
+  cursor: pointer;
+  position: relative;
+  top: -20px;
+  direction: ltr;
+  left: -12px;
+}
+
+#load-cover {
+  width: 84%;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 300px;
+  position: absolute;
+  margin: 0 !important;
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#loadcover2 {
+  width: 84%;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 550px;
+  position: relative;
+  margin: 0 !important;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+#lod,
+#lod2 {
+  opacity: 1;
+  z-index: 1000;
+}
+
+
+/*hamed*/
+.progressloader,.progressloader2,.progressloader3{
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+.alert-message{
+  padding-top: 3px;
+}
+.alert-command{
+  margin-left: 30px;
+  direction: ltr;
+  float: left;
+  border-bottom: 1px dotted red;
+  margin-right: 30px;
+  padding-top: 3px;
+}
+.login-alert{
+  position:absolute;
+  height:45px;
+  min-width:400px;
+  border-radius: 25px;
+  display: none;
+  top:70px;
+  padding:8px 10px;
+  background-color: white;
+  margin: 0 auto;
+  right: 44%;
+  z-index:10;
+}
+
+.img-alert{
+  margin:0 10px 0 4px;
+}
+

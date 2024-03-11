@@ -1,0 +1,562 @@
+// Text Color
+.text-black-800 {
+     color: $black-800 !important;
+}
+
+.text-black-900 {
+     color: $black-900 !important;
+}
+
+.text-gray-100 {
+     color: $gray-100 !important;
+}
+
+.text-gray-200 {
+     color: $gray-200 !important;
+}
+
+.text-gray-300 {
+     color: $gray-300 !important;
+}
+.text-gray-400 {
+     color: $gray-400 !important;
+}
+.text-gray-500 {
+     color: $gray-500 !important;
+}
+.text-gray-600 {
+     color: $gray-600 !important;
+}
+.text-gray-700 {
+     color: $gray-700 !important;
+}
+.text-gray-800 {
+     color: $gray-800 !important;
+}
+
+.text-gray-900 {
+     color: $gray-900 !important;
+}
+
+.text-blue-80 {
+     color: $blue-80 !important;
+}
+
+.text-blue-90 {
+     color: $blue-90 !important;
+}
+
+.text-blue-95 {
+     color: $blue-95 !important;
+}
+
+.text-blue-100 {
+     color: $blue-100 !important;
+}
+
+.text-blue-200 {
+     color: $blue-200 !important;
+}
+
+.text-blue-250 {
+     color: $blue-250 !important;
+}
+
+.text-blue-300 {
+     color: $blue-300 !important;
+}
+
+.text-blue-400 {
+     color: $blue-400 !important;
+}
+
+.text-blue-500 {
+     color: $blue-500 !important;
+}
+
+.text-blue-600 {
+     color: $blue-600 !important;
+}
+
+.text-blue-700 {
+     color: $blue-700 !important;
+}
+
+.text-blue-750 {
+     color: $blue-750 !important;
+}
+
+.text-blue-800 {
+     color: $blue-800 !important;
+}
+
+.text-green-300 {
+     color: $green-300 !important;
+}
+
+.text-green-400 {
+     color: $green-400 !important;
+}
+
+.text-pink-100 {
+     color: $pink-100 !important;
+}
+.text-pink-200 {
+     color: $pink-200 !important;
+}
+.text-pink-300 {
+     color: $pink-300 !important;
+}
+.text-pink-400 {
+     color: $pink-400 !important;
+}
+
+.text-pink-500 {
+     color: $pink-500 !important;
+}
+
+.text-red-400 {
+     color: $red-400 !important;
+}
+.text-red-500 {
+     color: $red-500 !important;
+}
+
+.text-orange-300 {
+     color: $orange-300 !important;
+}
+.text-orange-500 {
+     color: $orange-500 !important;
+}
+
+.text-yellow-300 {
+     color: $yellow-300 !important;
+}
+
+.text-yellow-500 {
+     color: $yellow-500 !important;
+}
+
+.text-purple-200 {
+     color: $purple-200 !important;
+}
+
+.text-light-100 {
+     color: $light-100 !important;
+}
+
+.text-light-150 {
+     color: $light-150 !important;
+}
+
+.text-light-200 {
+     color: $light-200 !important;
+}
+
+.text-light-300 {
+     color: $light-300 !important;
+}
+
+.text-light-350 {
+     color: $light-350 !important;
+}
+.text-light-400 {
+     color: $light-400 !important;
+}
+.text-light-500 {
+     color: $light-500 !important;
+}
+
+.text-navy-blue-400 {
+     color: $navy-blue-400 !important;
+}
+.text-navy-blue-600 {
+     color: $navy-blue-600 !important;
+}
+
+// Background Color Solid
+.bg-black-800 {
+     background-color: $black-800 !important;
+}
+
+.bg-black-900 {
+     background-color: $black-900 !important;
+}
+
+.bg-gray-100 {
+     background-color: $gray-100 !important;
+}
+
+.bg-gray-200 {
+     background-color: $gray-200 !important;
+}
+
+.bg-gray-300 {
+     background-color: $gray-300 !important;
+}
+.bg-gray-500 {
+     background-color: $gray-500 !important;
+}
+.bg-gray-800 {
+     background-color: $gray-800 !important;
+}
+.bg-gray-900 {
+     background-color: $gray-900 !important;
+}
+
+.bg-blue-80 {
+     background-color: $blue-80 !important;
+}
+
+.bg-blue-90 {
+     background-color: $blue-90 !important;
+}
+
+.bg-blue-95 {
+     background-color: $blue-95 !important;
+}
+
+.bg-blue-100 {
+     background-color: $blue-100 !important;
+}
+
+.bg-blue-200 {
+     background-color: $blue-200 !important;
+}
+
+.bg-blue-250 {
+     background-color: $blue-250 !important;
+}
+
+.bg-blue-300 {
+     background-color: $blue-300 !important;
+}
+
+.bg-blue-400 {
+     background-color: $blue-400 !important;
+}
+
+.bg-blue-500 {
+     background-color: $blue-500 !important;
+}
+
+.bg-blue-600 {
+     background-color: $blue-600 !important;
+}
+
+.bg-blue-700 {
+     background-color: $blue-700 !important;
+}
+
+.bg-blue-750 {
+     background-color: $blue-750 !important;
+}
+
+.bg-blue-800 {
+     background-color: $blue-800 !important;
+}
+
+.bg-green-300 {
+     background-color: $green-400 !important;
+}
+
+.bg-green-300 {
+     background-color: $green-400 !important;
+}
+
+.bg-pink-100 {
+     background-color: $pink-100 !important;
+}
+.bg-pink-200 {
+     background-color: $pink-200 !important;
+}
+.bg-pink-300 {
+     background-color: $pink-300 !important;
+}
+.bg-pink-400 {
+     background-color: $pink-400 !important;
+}
+
+.bg-pink-500 {
+     background-color: $pink-500 !important;
+}
+
+.bg-red-400 {
+     background-color: $red-400 !important;
+}
+
+.bg-red-500 {
+     background-color: $red-500 !important;
+}
+
+.bg-orange-300 {
+     background-color: $orange-300 !important;
+}
+.bg-orange-500 {
+     background-color: $orange-500 !important;
+}
+
+.bg-yellow-300 {
+     background-color: $yellow-300 !important;
+}
+
+.bg-yellow-500 {
+     background-color: $yellow-500 !important;
+}
+
+.bg-purple-200 {
+     background-color: $purple-200 !important;
+}
+
+.bg-light-100 {
+     background-color: $light-100 !important;
+}
+
+.bg-light-150 {
+     background-color: $light-150 !important;
+}
+
+.bg-light-200 {
+     background-color: $light-200 !important;
+}
+
+.bg-light-300 {
+     background-color: $light-300 !important;
+}
+
+.bg-light-350 {
+     background-color: $light-350 !important;
+}
+
+.bg-light-op-100 {
+     background-color: rgba(255, 255, 255, 0.02) !important;
+}
+
+.bg-light-op-300 {
+     background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.bg-navy-blue-400 {
+     background-color: $navy-blue-400 !important;
+}
+
+// Background Color Gradient
+.bg-grd-blue-500-to-blue-200-0 {
+     background: $blue-500;
+     background: linear-gradient(0deg, $blue-500 0%, $blue-200 100%);
+}
+
+.bg-grd-blue-500-to-blue-200-45 {
+     background: $blue-500;
+     background: linear-gradient(45deg, $blue-500 0%, $blue-200 100%);
+}
+
+.bg-grd-blue-500-to-blue-200-90 {
+     background: $blue-500;
+     background: linear-gradient(-90deg, $blue-500 0%, $blue-200 100%);
+}
+
+.bg-grd-blue-500-to-blue-200-180 {
+     background: $blue-500;
+     background: linear-gradient(180deg, $blue-500 0%, $blue-200 100%);
+}
+
+.bg-grd-blue-700-to-purple-100-80 {
+     background: $blue-700;
+     background: linear-gradient(80deg, $blue-700 0%, $blue-100 80%);
+}
+
+
+.bg-grd-blue-800-to-purple-200-0 {
+     background: $blue-800;
+     background: linear-gradient(0deg, $blue-800 0%, $purple-200 100%);
+}
+
+.bg-grd-blue-800-to-purple-100-90 {
+     background: $blue-800;
+     background: linear-gradient(90deg, $blue-800 0%, $purple-100 100%);
+}
+
+.bg-grd-blue-800-to-purple-200-45 {
+     background: $blue-800;
+     background: linear-gradient(45deg, $blue-800 0%, $purple-200 100%);
+}
+
+.bg-grd-blue-800-to-purple-200-80 {
+     background: $blue-800;
+     background: linear-gradient(80deg, $blue-800 0%, $purple-200 80%);
+}
+
+.bg-grd-blue-800-to-purple-200-90 {
+     background: $blue-800;
+     background: linear-gradient(-90deg, $blue-800 0%, $purple-200 100%);
+}
+
+.bg-grd-purple-600-to-purple-200-90 {
+     background: $purple-600;
+     background: linear-gradient(-90deg, $purple-600 0%, $purple-200 100%);
+}
+
+.bg-grd-blue-800-to-purple-200-180 {
+     background: $blue-800;
+     background: linear-gradient(180deg, $blue-800 0%, $purple-200 100%);
+}
+
+.bg-grd-pink-300-to-yellow-300-0 {
+     background: $pink-300;
+     background: linear-gradient(0deg, $pink-300 0%, $yellow-300 100%);
+}
+
+.bg-grd-pink-300-to-yellow-300-45 {
+     background: $pink-300;
+     background: linear-gradient(45deg, $pink-300 0%, $yellow-300 100%);
+}
+
+.bg-grd-pink-300-to-yellow-300-90 {
+     background: $pink-300;
+     background: linear-gradient(-90deg, $pink-300 0%, $yellow-300 100%);
+}
+
+.bg-grd-pink-300-to-yellow-300-180 {
+     background: $pink-300;
+     background: linear-gradient(180deg, $pink-300 0%, $yellow-300 100%);
+}
+
+.bg-grd-pink-350-to-orange-300-0 {
+     background: $pink-350;
+     background: linear-gradient(0deg, $pink-350 0%, $orange-300 100%);
+}
+
+.bg-grd-pink-350-to-orange-300-45 {
+     background: $pink-350;
+     background: linear-gradient(45deg, $pink-350 0%, $orange-300 100%);
+}
+
+.bg-grd-pink-350-to-orange-300-80 {
+     background: $pink-350;
+     background: linear-gradient(80deg, $pink-350 0%, $orange-300 80%);
+}
+
+
+
+.bg-grd-pink-350-to-orange-300-90 {
+     background: $pink-350;
+     background: linear-gradient(-90deg, $pink-350 0%, $orange-300 100%);
+}
+
+.bg-grd-pink-350-to-orange-300-180 {
+     background: $pink-350;
+     background: linear-gradient(180deg, $pink-350 0%, $orange-300 100%);
+}
+
+.bg-grd-green-400-to-green-300-0 {
+     background: $green-400;
+     background: linear-gradient(0deg, $green-400 0%, $green-300 100%);
+}
+
+.bg-grd-green-400-to-green-300-45 {
+     background: $green-400;
+     background: linear-gradient(45deg, $green-400 0%, $green-300 100%);
+}
+
+.bg-grd-green-400-to-green-300-90 {
+     background: $green-400;
+     background: linear-gradient(-90deg, $green-400 0%, $green-300 100%);
+}
+
+.bg-grd-green-400-to-green-300-180 {
+     background: $green-400;
+     background: linear-gradient(180deg, $green-400 0%, $green-300 100%);
+}
+
+.bg-grd-blue-250-to-blue-100-0 {
+     background: $blue-250;
+     background: linear-gradient(0deg, $blue-250 0%, $blue-100 100%);
+}
+
+.bg-grd-blue-250-to-blue-100-45 {
+     background: $blue-250;
+     background: linear-gradient(45deg, $blue-250 0%, $blue-100 100%);
+}
+
+.bg-grd-blue-250-to-blue-100-90 {
+     background: $blue-250;
+     background: linear-gradient(-90deg, $blue-250 0%, $blue-100 100%);
+}
+
+.bg-grd-blue-250-to-blue-100-180 {
+     background: $blue-250;
+     background: linear-gradient(180deg, $blue-250 0%, $blue-100 100%);
+}
+
+.bg-grd-orange-300-to-yellow-500-0 {
+     background: $orange-300;
+     background: linear-gradient(0deg, $orange-300 0%, $yellow-500 100%);
+}
+
+.bg-grd-orange-300-to-yellow-500-45 {
+     background: $orange-300;
+     background: linear-gradient(45deg, $orange-300 0%, $yellow-500 100%);
+}
+
+.bg-grd-orange-300-to-yellow-500-90 {
+     background: $orange-300;
+     background: linear-gradient(-90deg, $orange-300 0%, $yellow-500 100%);
+}
+
+.bg-grd-orange-300-to-yellow-500-180 {
+     background: $orange-300;
+     background: linear-gradient(180deg, $orange-300 0%, $yellow-500 100%);
+}
+
+.bg-grd-gray-300-to-gray-100-0 {
+     background: $gray-300;
+     background: linear-gradient(0deg, $gray-300 0%, $gray-100 100%);
+}
+
+.bg-grd-gray-300-to-gray-100-45 {
+     background: $gray-300;
+     background: linear-gradient(45deg, $gray-300 0%, $gray-100 100%);
+}
+
+.bg-grd-gray-300-to-gray-100-90 {
+     background: $gray-300;
+     background: linear-gradient(-90deg, $gray-300 0%, $gray-100 100%);
+}
+
+.bg-grd-gray-300-to-gray-100-180 {
+     background: $gray-300;
+     background: linear-gradient(180deg, $gray-300 0%, $gray-100 100%);
+}
+
+.btn-check-grd-blue-700-to-blue-100-45 + .btn-check-lable,
+.btn-check-grd-blue-700-to-blue-100-45 + .btn-check-radio-lable {
+     background: $blue-o-700;
+     background: linear-gradient(45deg, $blue-o-700 0%, $blue-100 100%);
+}
+
+.btn-check-grd-blue-700-to-blue-100-45:checked + .btn-check-lable {
+     background: $blue-o-700;
+     background: linear-gradient(45deg, $blue-o-700 0%, $blue-100 100%);
+}
+
+.btn-check-grd-blue-700-to-blue-100-45:checked + .btn-check-radio-lable {
+     background: $blue-o-700;
+     background: linear-gradient(45deg, $blue-o-700 0%, $blue-100 100%);
+}
+
+.btn-check-grd-orange-300-to-yellow-500-45 + .btn-check-lable,
+.btn-check-grd-orange-300-to-yellow-500-45 + .btn-check-radio-lable {
+     background: $yellow-500;
+     background: linear-gradient(45deg, $yellow-500 0%, $orange-300 100%);
+}
+
+.btn-check-grd-orange-300-to-yellow-500-45:checked + .btn-check-lable {
+     background: $yellow-500;
+     background: linear-gradient(45deg, $yellow-500 0%, $orange-300 100%);
+}
+
+.btn-check-grd-orange-300-to-yellow-500-45:checked + .btn-check-radio-lable {
+     background: $yellow-500;
+     background: linear-gradient(45deg, $yellow-500 0%, $orange-300 100%);
+}

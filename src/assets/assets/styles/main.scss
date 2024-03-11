@@ -1,0 +1,29 @@
+// @import "tailwindcss/base";
+// @import "tailwindcss/components";
+// @import "tailwindcss/utilities";
+
+//old
+@import "/src/assets/styles/global.scss";
+@import "/src/assets/general/theme-style2.css";
+@import "/src/assets/general/theme-style.css";
+@import "/src/assets/general/theme-base.css";
+@import "/src/assets/general/css/style.css";
+@import "/src/assets/general/css/style-icomoon.css";
+@import "/src/assets/general/css/mizban-swal.css";
+@import "/src/assets/general/scroll/mizban/style.css";
+@import "/src/assets/general/pure-styles/buttons/pill.css";
+@import "./changes.css";
+
+//@import "./style.css";
+
+//old
+@import "/src/assets/general/css/fontIranSans.min.css";
+@import "/src/assets/fonts/fontawesome-pro.min.css";
+@import "/src/assets/general/choices/css/choices.min.css";
+@import "/node_modules/vue-toastification/dist/index.css";
+@import "/node_modules/overlayscrollbars/css/OverlayScrollbars.css";
+@import "/src/assets/general/bootstrap/css/bootstrap.rtl.min.css";
+
+//@import "bootstrap/scss/bootstrap";
+//@import "bootstrap/scss/functions";
+//@import "base.css";

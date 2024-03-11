@@ -1,0 +1,28 @@
+.alert-hover-show {
+    .icon-close {
+        display: none;
+        @include transition;
+    }
+    img{
+        width: 10.5px;
+        height: 10.5px;
+    }
+    @media screen and (max-width:767px){
+        width: max-content;
+        flex-direction: column;
+        p{
+            line-height: 2 !important;
+        }
+    }
+}
+
+.alert-hover-show:hover {
+    .alert-hover-hide {
+        display: none;
+    }
+    .icon-close {
+        display: block;
+        @include transition;
+        transform: rotate(45deg);
+    }
+}

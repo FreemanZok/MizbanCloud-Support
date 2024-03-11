@@ -1,0 +1,47 @@
+.input-placeholder-ltr {
+    direction: ltr;
+    &::-webkit-input-placeholder {
+        text-align: right !important;
+    }
+    &:-ms-input-placeholder {
+        text-align: right !important;
+    }
+    &::placeholder {
+        text-align: right !important;
+    }
+}
+
+.form-floating > .form-control,
+.form-floating > .form-select {
+    padding: 0 !important;
+    height: 41px !important;
+}
+.form-floating > label{
+    padding: 0 !important;
+    right: auto !important;
+    font-size: 14px !important;
+    top: 6px !important;
+}
+.form-floating > .form-control:focus ~ label, .form-floating > .form-control:not(:placeholder-shown) ~ label, .form-floating > .form-select ~ label {
+    opacity: 1 !important;
+    font-size: 15px !important;
+    margin-top: -18px !important;
+    transform: scale(1) translateY(-.5rem) translateX(-.15rem) !important;
+}
+
+.input-group-search{
+
+    .input-group-text{
+        border-radius:  50px 0 0 50px !important;
+        border-right: none !important;
+        width: 20%;
+    }
+    input{
+        border-radius: 0 50px 50px 0 !important;
+        border-left: none !important;
+        width: 80%;
+        &:focus{
+            outline: none !important;
+        }
+    }
+}

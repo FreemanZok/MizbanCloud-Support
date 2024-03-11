@@ -1,0 +1,79 @@
+.profile-structure {
+  flex: 0 0 auto;
+  width: 38.7% !important
+}
+
+.border-rad-4044 {
+  border-radius: 4px 0 4px 4px !important;
+}
+
+.blackText {
+  color: black;
+}
+
+.usn{
+  user-select: none;
+}
+
+.cupo {
+  cursor: pointer;
+}
+
+.address-height {
+  height: 62.5px !important;
+}
+
+.contact-height {
+  height: 148px !important;
+}
+
+.hide_hide {
+  visibility: hidden;
+}
+
+.notification {
+  position: absolute;
+  top: 78px;
+  right: calc(50% - 175px);
+  min-width: 350px;
+  height: 44px;
+  text-wrap: none;
+}
+.fancy-shadow {
+  box-shadow: 1px 1px 20px 11px rgba(0, 0, 0, 0.03);
+}
+@keyframes fadeOut {
+  from {top: 0px}
+  to {top: -500px}
+}
+
+.fader {
+  animation: fadeOut;
+  animation-duration: 5s;
+}
+
+#tabCard3 p {
+  cursor: pointer;
+  user-select: none;
+}
+
+#1tag, #2tag, #3tag, #4tag {
+  cursor: none !important;
+  user-select: none !important;
+}
+
+.noCursor {
+  cursor: default !important;
+}
+.noCursorf {
+  cursor: default !important;
+}
+
+.4c {
+  color: #4c4c4c;
+  }
+
+  .removeStyles , .removeStyles:hover {
+    text-decoration: none;
+    color: inherit;
+  }

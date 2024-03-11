@@ -1,0 +1,77 @@
+#openTick_previous,#closeTick_previous{
+  border-top-left-radius: 25px 20px  !important;
+  border-bottom-left-radius: 25px 20px  !important;
+  padding-right: 15px !important;
+  padding-left:15px !important;
+  
+}
+
+#openTick_next,#closeTick_next{
+  border-top-right-radius: 25px 20px  !important;
+  border-bottom-right-radius: 25px 20px  !important;
+  padding-right: 15px !important;
+  padding-left: 15px !important;
+   
+}
+.paginate_button {
+  padding-right: 15px !important;
+  padding-left:15px !important;
+  border:0px !important;
+  border-radius:0px !important;
+ 
+}
+
+.paginate_button  {
+ /* display: none !important;
+  */border-right: solid 1px #edeff4 !important;
+  border-top: solid 1px #edeff4 !important;
+  border-bottom: solid 1px #edeff4 !important;
+  height: 2.8em !important;
+  font-size: 14px;
+  font-weight: 300;
+  color: #3f567a !important;
+  cursor:pointer;
+  text-decoration: none;
+  border-radius: 10%;
+}
+.current{
+ /* display: none !important;
+  */background-color: #48b1e5 !important;
+  color: whitesmoke !important;
+  border: solid 1px #48b1e5 !important;
+  font-weight: 600;
+}
+
+
+.pgbtn .k-rtl {
+  display: none !important;
+  direction: ltr !important;
+  margin: 0px !important;
+  height: 50px !important;
+  padding: 50px !important;
+}
+
+.paginate_button {
+ /* display: none !important;
+ */ padding: 10px;
+  margin: 0px;
+  border-left: none;
+  border-right: none;
+
+}
+
+
+.pgArea {
+  display: none !important;
+  position: absolute;
+  bottom: -500px;
+  left: 42%;
+}
+
+#openTick_length, #closeTick_length {
+  display: none !important;
+}
+
+.mb-bar {
+  display: none !important;
+}

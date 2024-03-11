@@ -1,0 +1,151 @@
+//dropdown menu sm
+.dropdown-menu-sm {
+  margin-top: 22px !important;
+  border-radius: 10px;
+  @include dropdownBoxShadow;
+  width: 290px;
+  min-width: 200px;
+  max-width: 290px;
+
+  padding: 0.9rem 0;
+
+  li {
+    position: relative;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: white;
+    width: 18px;
+    height: 18px;
+    top: -8px;
+    left: 24px;
+    transform: rotate(45deg);
+    border-radius: 2px;
+  }
+
+  .dropdown-item {
+    font-size: 12.3px;
+    font-weight: 400;
+    white-space: normal;
+    letter-spacing: -0.02rem;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: transparent !important;
+    }
+    @media screen and (max-width:767px){
+      img{
+        display: none;
+      }
+    }
+  }
+
+  .dropdown-item:focus-visible {
+    border: none !important;
+    outline: none !important;
+  }
+}
+.dropdown-item-active{
+  li {
+    @include transition25;
+    &:hover {
+      @include transition25;
+      background-color: $light-250 !important;
+      @media screen and (max-width:767px){
+        border-radius: 2px;
+      }
+    }
+  }
+
+}
+.dropdown-divider {
+  margin: 0.2rem 0.9rem;
+}
+
+//dropdown menu sm hover
+.active-dropdown-menu-sm-hover {
+  position: absolute;
+  inset: 0px auto auto 0px;
+  margin: 0px;
+  transform: translate(0px, 38px);
+  @media screen and (max-width:767px){
+    position: relative;
+    inset: 0 !important;
+    margin: 0px !important;
+    transform: none !important;
+
+  }
+}
+
+//dropdown menu status
+.dropdown-menu-status {
+  @include DdownBoxShadow;
+  .dropdown-status {
+    padding-right: 2.5rem;
+    padding-left: 1.5rem;
+    line-height: 1.8;
+    padding-top: 0.58rem !important;
+    padding-bottom: 0.58rem !important;
+    &::before {
+      margin-left: 6px;
+      margin-right: -1.13rem;
+    }
+  }
+
+  .dropdown-status-blue {
+    &::before {
+      content: url("/src/assets/general/images/root/bullet_blue.svg");
+    }
+  }
+
+  .dropdown-status-success {
+    &::before {
+      content: url("/src/assets/general/images/root/bullet_green.svg");
+    }
+  }
+
+  .dropdown-status-warning {
+    &::before {
+      content: url("/src/assets/general/images/root/bullet_orange.svg");
+    }
+  }
+
+  .dropdown-status-danger {
+    &::before {
+      content: url("/src/assets/general/images/root/bullet_pink.svg");
+    }
+  }
+}
+
+.dropdown-menu-sm-icon {
+  width: 100px;
+  @include DdownBoxShadow;
+  li {
+    .dropdown-item {
+      font-size: 12.5px;
+      padding-top: 0.3rem !important;
+      padding-bottom: 0.3rem !important;
+      img {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: -2px;
+      }
+    }
+  }
+
+  .dropdown-divider {
+    margin: 0.5rem 0.9rem;
+  }
+}
+.alertActive {
+  position: relative;
+  &::before {
+    content: url("/src/assets/general/images/root/topMenu/ico_alert.svg");
+    position: absolute;
+    top: -3px;
+    right: -2px;
+  }
+}

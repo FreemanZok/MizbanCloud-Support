@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 28.1 28.1" style="enable-background:new 0 0 28.1 28.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:none;stroke:url(#SVGID_00000115511157414441603280000014554181380052365204_);stroke-miterlimit:10;}
+</style>
+<g id="c77fc462-916f-4fb4-b117-276c24daa084_00000115496526079537348520000004714194880195378863_">
+	<g id="_x34_668da76-9229-47d9-a583-576c1db46307_00000129925073080924087900000007528384122768789655_">
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.6904" y1="11.6817" x2="21.146" y2="11.6817" gradientTransform="matrix(1 0 0 -1 0 26.3478)">
+			<stop  offset="0" style="stop-color:#7694F5"/>
+			<stop  offset="1.010379e-06" style="stop-color:#7694F5"/>
+			<stop  offset="0.3348" style="stop-color:#7697F3"/>
+			<stop  offset="0.6222" style="stop-color:#76A2EC"/>
+			<stop  offset="0.8914" style="stop-color:#75B4E1"/>
+			<stop  offset="1" style="stop-color:#75BDDB"/>
+		</linearGradient>
+		<path class="st0" d="M20.9,9l-1.8-1.8c-0.3-0.3-0.7-0.3-1,0L5.9,19.4c-0.3,0.3-0.3,0.7,0,1l1.7,1.8l0,0c0.3,0.3,0.7,0.3,1,0
+			L20.9,10h0.1l0,0C21.2,9.6,21.2,9.2,20.9,9z"/>
+		
+			<linearGradient id="SVGID_00000176013823711999908760000010286903230491799724_" gradientUnits="userSpaceOnUse" x1="7.163556e-02" y1="12.2463" x2="27.9977" y2="12.2463" gradientTransform="matrix(1 0 0 -1 0 26.3478)">
+			<stop  offset="0" style="stop-color:#7694F5"/>
+			<stop  offset="1.010379e-06" style="stop-color:#7694F5"/>
+			<stop  offset="0.3348" style="stop-color:#7697F3"/>
+			<stop  offset="0.6222" style="stop-color:#76A2EC"/>
+			<stop  offset="0.8914" style="stop-color:#75B4E1"/>
+			<stop  offset="1" style="stop-color:#75BDDB"/>
+		</linearGradient>
+		<path style="fill:none;stroke:url(#SVGID_00000176013823711999908760000010286903230491799724_);stroke-miterlimit:10;" d="
+			M24.8,5.1l2.3,2.3l0,0c0.5,0.5,0.5,1.4,0,1.9L9.2,27.2l0,0c-0.5,0.5-1.4,0.5-1.9,0l0,0L1,20.7l0,0c-0.5-0.5-0.5-1.4,0-1.9l0,0
+			L18.9,1l0,0c0.5-0.5,1.4-0.5,1.9,0l2,2l-0.1,0.1c-0.7,0.7-0.8,1.7-0.3,2.3C22.9,6.1,24,5.9,24.8,5.1L24.8,5.1z"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,51 @@
+.paginate_button {
+  border-right: solid 1px #edeff4 !important;
+  border-top: solid 1px #edeff4 !important;
+  border-bottom: solid 1px #edeff4 !important;
+  border-left: solid 1px #edeff4 !important;
+  height: 2.8em !important;
+  font-size: 14px;
+  font-weight: 300;
+  color: #3f567a !important;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 10%;
+}
+.current {
+  background-color: #48b1e5 !important;
+  color: whitesmoke !important;
+  border: solid 1px #48b1e5 !important;
+  font-weight: 600;
+}
+
+.pgbtn .k-rtl {
+  direction: ltr !important;
+  margin: 0px !important;
+  height: 50px !important;
+  padding: 50px !important;
+}
+
+.paginate_button {
+  padding: 10px;
+  margin: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.pgArea {
+  position: absolute;
+  bottom: -45px;
+  left: 42%;
+}
+
+#openTick_next {
+  border-radius: 0 19px 19px 0 !important;
+}
+#openTick_previous {
+  border-radius: 19px 0 0 19px !important;
+}
+
+#openTick_length,
+#closeTick_length {
+  display: none;
+}

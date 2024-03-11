@@ -1,0 +1,164 @@
+.minimal-dp li.select-item{
+    white-space: nowrap;
+  }
+  
+  .select-wrap ul {
+    padding-left: 0;
+    margin-bottom: 0 !important;
+    overflow: visible !important;
+  }
+  .modal-scroll{
+    margin: 0;
+     width: 100%;
+  }
+  
+
+  .modal-scroll .scroll-wrapper{
+    max-height: none !important;
+  
+  }
+  .showClProtocol .current-item , .showClSnapshot .current-item {
+    padding-right: 12px;
+  }
+  .clProtocollist li.iptype {
+    padding-right: 13px !important;
+  }
+  
+  .server-src .server-src-label {
+    direction: rtl;
+  }
+  
+  .factor-datacenter .imgdc {
+    width: 25px !important;
+  }
+  
+  
+  .select-wrap li.idcselector{
+    padding-right:0px !important;
+  }
+  
+  .activelabel.cloud-card::after{
+    display: block;
+  }
+  /* .table-scroll .scrollbar-outer > .scroll-element.scroll-y .scroll-bar{
+    transform: translateY(-100%);
+  } */
+
+  .support-field-wrap{
+      overflow: visible !important;
+  }
+  #dp{
+      overflow: visible !important;
+  }
+  .scrollbar-outer > .scroll-element.scroll-x{
+      width: 100% !important;
+  }
+  .table-last-web .scrollbar-outer > .scroll-element.scroll-x .scroll-bar{
+      right: auto !important;
+  }
+  .table-last-web thead{
+    display: table;
+    width: 94.25%;
+    table-layout: fixed;
+    direction: ltr;
+    margin: 0 auto 0 0;
+  }
+  .table-last-web tbody{
+    display: block;
+    height: 140px !important;
+
+    overflow: hidden;
+  }
+  .table-last-web tbody tr{
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+
+  .table-last-web .scrollbar-outer > .scroll-content.scroll-scrolly_visible {
+	direction: ltr;
+	height: 140px !important;
+}
+.cloud-card img{
+  z-index: 0;
+  pointer-events: none;
+}
+
+.scroll-fix-height-custom{
+  height: 150px !important;
+}
+/* #overview-list{
+  height: 180px !important;
+}
+#recordlist{
+  height: 150px !important;
+}
+#websitecachelist{
+  height: 150px !important;
+}
+.select-wrap ul{
+  height: 150px !important;
+} */
+  .table > :not(caption) > * > * {
+	height: 46px;
+    }
+    .table-ticket{
+        margin-top: 1.5rem;
+    }
+    .table-ticket thead{
+        direction: rtl !important;
+    }
+    .table-ticket tbody{
+        direction: rtl !important;
+    }
+
+    .topTicketTable .scrollbar-outer > .scroll-element.scroll-y .scroll-element_outer{
+        left: 0 !important;
+    }
+    #tableDomainsMainPage .scrollbar-outer,#TicketTable .scrollbar-outer{
+      left: -12px;
+      margin-left: 12px;
+    }
+    #TicketTable tbody tr td:nth-child(2){
+        direction: rtl;
+    }
+    #addSnapshot .scroll-content{
+      height: 204px !important;
+    }
+    @media screen and (min-width: 1100px) and (max-width: 1399.98px) {
+        /* .wrapper-table{
+            width: 500px !important;
+            white-space: nowrap;
+        } */
+        .table-ticket .wrapper-table {
+            width: 550px !important;
+            white-space: nowrap;
+        }
+
+
+        /* new */
+        .table-ticket .wrapper-table {
+          width: 100% !important;
+        }
+      }
+      @media screen and (max-width: 649.98px) {
+        .wrapper-table{
+            width: 530px !important;
+            white-space: nowrap;
+        }
+        .table-ticket .wrapper-table{
+            width: 560px !important;
+            white-space: nowrap;
+        }
+      }
+
+  /* #tableDomainsMainPage tbody{
+      display: block !important;
+      height: 178px !important;
+  }
+  #tableDomainsMainPage tbody tr{
+    display: table !important;
+    width: 100% !important;
+    table-layout: fixed !important;
+} */

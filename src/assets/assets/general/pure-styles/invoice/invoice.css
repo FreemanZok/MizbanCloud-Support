@@ -1,0 +1,126 @@
+.cleanHead {
+  padding: 8px 20px 8px 20px !important;
+  background-color: #f4f4f4 !important;
+  border-radius: 25px !important;
+}
+
+@media screen and (max-width: 975px) {
+  .cleanHead {
+    padding: 8px 20px 24px 20px !important;
+    background-color: #f4f4f4 !important;
+    border-radius: 8px !important;
+  }
+}
+
+.details {
+  padding-bottom: 17px !important;
+  padding-top: 19px !important;
+  margin-right: 9px;
+  text-align: right !important;
+}
+.mgr9px {
+  margin-right: 9px !important;
+}
+.mgr32px {
+  margin-right: 32px !important;
+}
+.mgr13px {
+  margin-right: 13px !important;
+}
+.mgr43px {
+  margin-right: 43px !important;
+}
+.mgr50px {
+  margin-right: 50px !important;
+}
+.mgr64px {
+  margin-right: 64px !important;
+}
+.mgr-23px {
+  margin-right: -23px !important;
+}
+.mgl-5px {
+  margin-left: -5px !important;
+}
+.mgl9px {
+  margin-left: 9px !important;
+}
+.pb17px {
+  padding-bottom: 17px !important;
+}
+
+.aligner {
+  margin: 0 9px;
+}
+
+.mato {
+  margin: auto !important;
+}
+
+.tralign {
+  text-align: right !important;
+}
+
+.tlalign {
+  text-align: left !important;
+}
+
+.border-c-1-fu:focus {
+  border-color: #a6a6a6 !important;
+}
+
+.hr {
+  color: #3e3e3e;
+  margin: -8px 9px 9px 9px;
+  height: 1px;
+}
+
+.hr-main {
+  color: #3e3e3e;
+  margin: -29px 9px 9px 9px;
+  height: 2px;
+}
+
+.py10 {
+  padding: 10px 0 !important;
+}
+
+#pager {
+  margin-top: 66px;
+  margin-bottom: -36px;
+}
+.text-ltr{
+  text-align: left;
+}
+.text-rtl{
+  text-align: right;
+}
+
+.discount {
+
+}
+
+.paypic {
+  margin-left: -5px !important;
+  padding-right: 100px !important;
+}
+
+.paybutton {
+  margin-left: 4px;
+}
+
+#offinp:focus::placeholder {
+  color: transparent;
+}
+
+#offinp {
+  width: 101px !important;
+}
+
+.searchClass {
+  height: 35px !important;
+}
+
+.reded {
+  color: darkred !important;
+}

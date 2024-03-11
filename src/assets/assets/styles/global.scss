@@ -1,0 +1,351 @@
+$portalColor: #48b1e5;
+
+.portal-text {
+	color: $portalColor;
+}
+body {
+	overflow-y: auto !important;
+	max-height: 100vh;
+	font-size: 12px !important;
+}
+
+#app {
+	position: relative;
+	min-height: 100vh;
+}
+textarea {
+	border: none !important;
+}
+.v-select .v-field .v-field__input > input {
+	border: none !important;
+}
+
+.mb40 {
+	margin-bottom: 40px;
+}
+textarea.form-control {
+	&:focus {
+		border: solid 1px #92bedf !important;
+		box-shadow: none !important;
+	}
+}
+input.my-input {
+	&:focus {
+		border: solid 1px #92bedf !important;
+		box-shadow: none !important;
+	}
+}
+.v-data-table-header__content {
+	font-weight: bold;
+	color: #7d7d7d;
+}
+
+.caution-color {
+	color: #ababab;
+}
+
+.my-badge {
+	background: #a7dfff;
+	color: white;
+	display: inline-block;
+	padding: 0.35em 0.65em;
+	font-size: 0.75em;
+	font-weight: 700;
+	line-height: 1;
+	color: #fff;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: baseline;
+	border-radius: 0.25rem;
+}
+.my-col-60 {
+	width: 60%;
+	display: inline-block;
+	vertical-align: top;
+}
+.my-col-40 {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+.my-col-50 {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.icon-blue-back-awesome {
+	background: linear-gradient(80deg, #0379bd 0, #51cae7 80%);
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	padding: 4px;
+}
+
+.border-btn {
+	background: white;
+	color: #4fc3f7 !important;
+	border: solid 2px #4fc3f7 !important;
+}
+
+.deep-shadow-hover {
+	&:hover {
+		box-shadow: 0 6px 7px -4px rgba(0, 0, 0, 0.2),
+			0 2px 20px 1px rgba(0, 0, 0, 0.14),
+			0 4px 20px 3px rgba(104, 195, 218, 0.12) !important;
+	}
+}
+.small-shadow {
+	box-shadow: 0 0 5px #dddddd !important;
+}
+.box-wrapper {
+	max-width: 920px;
+	margin: 0 auto;
+}
+svg {
+	width: 100%;
+	height: 100%;
+}
+
+.blue-icon {
+	color: #84d1f8 !important;
+}
+.remove-icon-wrap {
+	padding: 5px;
+	cursor: pointer;
+	color: #a5a5a5;
+	border-radius: 50%;
+	&:hover {
+		color: rgb(231 80 80) !important;
+		box-shadow: 0 0 5px #ffaeae;
+	}
+}
+
+.table-btn {
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	&.delete {
+		&:hover {
+			color: rgb(231 80 80) !important;
+			box-shadow: 0 0 5px #ffaeae;
+		}
+	}
+	&:hover {
+		color: #49aadb !important;
+		box-shadow: 0 0 5px #9ebed8;
+	}
+}
+
+.txt-color {
+	color: #697079 !important;
+}
+
+::-webkit-scrollbar {
+	width: 8px !important;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #dadada !important;
+	border-radius: 20px !important;
+	&:hover {
+		background: #b6b6b6 !important;
+	}
+}
+
+::-webkit-scrollbar-track {
+	background: #ebebeb3b !important;
+	border-radius: 20px !important;
+}
+.v-dialog > .v-overlay__content > .v-card {
+	border-radius: 12px !important;
+}
+.terms-txt {
+	font-weight: bold;
+	color: #085da9;
+	&:hover {
+		color: #3491e5;
+	}
+}
+
+.v-pagination__list {
+	direction: ltr !important;
+	color: #7b7b7b !important;
+	.v-btn {
+		width: 36px !important;
+		height: 36px !important;
+		&:hover {
+			background: #addef7 !important;
+		}
+	}
+}
+.v-pagination__item.v-pagination__item--is-active {
+	.v-btn__overlay {
+		background: rgb(58, 190, 223) !important;
+	}
+	.v-btn__content {
+		color: #4d77f1 !important;
+	}
+}
+.w-40 {
+	width: 40% !important;
+}
+.my-border {
+	border: solid 1px #ededed;
+}
+.bold {
+	font-weight: bold;
+}
+.my-color {
+	color: #75bfec;
+}
+.portal-color {
+}
+.soft-blue-back {
+	background: #70cdff;
+}
+.second-back {
+	color: #234186;
+}
+.my-curve-3 {
+	border-radius: 12px;
+}
+.my-curve-2 {
+	border-radius: 10px;
+}
+.my-curve-1 {
+	border-radius: 7px;
+}
+.v-switch--inset .v-switch__track,
+.v-switch.v-switch--inset .v-selection-control__wrapper {
+	height: 19px !important;
+}
+.v-switch .v-selection-control {
+	min-height: unset !important;
+}
+.v-switch--inset .v-switch__thumb {
+	width: 17px !important;
+	height: 17px !important;
+}
+// input {
+// 	border: none !important;
+
+// 	&:focus {
+// 		border: none !important;
+// 	}
+// }
+input[type="text"]:focus,
+textarea:focus {
+	border: none !important;
+}
+.glass-back {
+	background-color: rgba(255, 255, 255, 0.02) !important;
+}
+.gray-back {
+	background-color: #f9fafc !important;
+}
+.v-label.v-label--clickable {
+	font-size: 11px !important;
+}
+.no-drop {
+	cursor: no-drop;
+}
+.main-wrap-modal {
+	padding: 30px 27px;
+	.inner-wrapper {
+		padding: 20px;
+	}
+	.my-title {
+		font-weight: bold;
+		&.active.txt-color {
+			color: #75bfec !important;
+		}
+	}
+}
+
+.inner-wrapper {
+	transition: 0.5s;
+	&.small-me {
+		padding-right: 143px !important;
+	}
+}
+.v-chip__content {
+	font-size: 11px !important;
+}
+.v-field__field {
+	.v-label.v-field-label {
+		font-size: 12px;
+	}
+}
+.my-text-danger {
+	color: #ff7474;
+}
+.back-danger {
+	background: #ff7474;
+}
+.MizbanCloud {
+	.v-chip--variant-tonal .v-chip__underlay {
+		background: #bbe9ff;
+	}
+	.v-select__selection-text {
+		font-size: 13px !important;
+		padding-top: 2px !important;
+	}
+	.v-switch--inset .v-switch__track {
+		min-width: 42px !important;
+	}
+	.v-expansion-panel {
+		border-radius: 9px !important;
+	}
+	.v-expansion-panel-title__overlay {
+		background-color: #16a4fd !important;
+	}
+	.v-expansion-panel__shadow {
+		box-shadow: 0 0px 3px #d4dce0;
+	}
+	.v-select.no-title .v-field .v-field__input {
+		padding: 8px !important;
+		min-height: 2px;
+	}
+	.v-table {
+		border-radius: 10px !important;
+	}
+	.v-field {
+		border-radius: 9px !important;
+		border: solid 1px #ebebeb !important;
+		box-shadow: none;
+		direction: rtl !important;
+	}
+	.v-select {
+		.v-field {
+			border: solid 1px #ebebeb !important;
+		}
+	}
+
+	.v-field.v-field--focused {
+		border: solid 2px #7dc3f7 !important;
+		box-shadow: -1px 1px 4px #bee1f7;
+		.v-icon {
+			color: #008ffb;
+		}
+	}
+	.v-field--variant-filled .v-field__outline::before,
+	.v-field--variant-underlined .v-field__outline::before {
+		border-bottom: none !important;
+	}
+	.v-field--variant-filled .v-field__outline::after {
+		// border-color: #7dc3f7 !important;
+		border: none !important;
+	}
+	.v-field__overlay {
+		background: white !important;
+	}
+	.text-primary {
+		color: #2196f3 !important;
+	}
+}
