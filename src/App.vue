@@ -1,14 +1,10 @@
-<script setup>
-
-</script>
-
 <template>
-  <div>
-    hello this is app.vue
-  </div>
+  <div>hello this is app.vue</div>
   <router-view />
 </template>
-
+<script setup>
+import PortalView from "/src/views/PortalView.vue";
+</script>
 <style scoped>
 .logo {
   height: 6em;

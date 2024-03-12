@@ -8,6 +8,10 @@ const routes = [
   {
     path: "/cdn/:domain_name/:domain_id/https-settings",
     component: () => import("@/components/cdn/HttpsSetting.vue"),
+    meta: {
+      layout: "PortalView",
+      pageTitle: "Https Setting",
+    },
   },
 ];
 
