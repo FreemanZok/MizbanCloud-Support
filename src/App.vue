@@ -1,19 +1,8 @@
 <template>
   <div>hello this is app.vue</div>
-  <component :is="layout" />
-
-  <!-- <router-view /> -->
+  <router-view />
 </template>
-<script setup>
-import PortalView from "/src/views/PortalView.vue";
-import { onBeforeRouteUpdate, ref } from "vue";
-
-const layout = ref("PortalView");
-
-onBeforeRouteUpdate((to) => {
-  layout.value = to.meta.layout || "PortalView"; // Default to 'PortalView' if no custom layout is specified
-});
-</script>
+<script setup></script>
 <style scoped>
 .logo {
   height: 6em;

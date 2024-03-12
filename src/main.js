@@ -7,6 +7,7 @@ import { createVuetify } from "vuetify";
 import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 import requests from "./requests";
+import newStore from "@/store/store.js";
 
 const vuetify = createVuetify({
   components,
@@ -17,5 +18,6 @@ app.use(router);
 app.use(vuetify);
 
 app.config.globalProperties.$requests = requests;
+app.config.globalProperties.$newStore = newStore;
 
 app.mount("#app");

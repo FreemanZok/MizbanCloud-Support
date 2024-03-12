@@ -6,10 +6,7 @@ import { RouterLink, RouterView } from "vue-router";
   <div class="wrapper PortalView">
     <!-- <CheckUserStatus />
 		<NavBar /> -->
-    <div
-      class="inner-wrapper"
-      :class="$store.state.asideStatus ? 'small-me' : ''"
-    >
+    <div class="inner-wrapper" :class="$newStore.asideStatus ? 'small-me' : ''">
       <!-- <Sidebar></Sidebar> -->
       <div
         id="bcct"
@@ -50,21 +47,21 @@ export default {
   //   },
   data() {
     return {
-      asideStatus: this.$store.state.asideStatus,
-      isScreenSmall: this.$store.state.isScreenSmall,
+      asideStatus: this.$newStore.asideStatus,
+      isScreenSmall: this.$newStore.isScreenSmall,
     };
   },
   created() {},
   beforeMount() {
     document.body.classList.add("d-body", "light", "MizbanCloud");
     watch(
-      () => this.$store.state.asideStatus,
+      () => this.$newStore.asideStatus,
       (newValue, oldValue) => {
         this.asideStatus = newValue;
       }
     );
     watch(
-      () => this.$store.state.isScreenSmall,
+      () => this.$newStore.isScreenSmall,
       (newValue, oldValue) => {
         this.isScreenSmall = newValue;
       }
