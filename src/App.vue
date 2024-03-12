@@ -1,5 +1,6 @@
 <template>
   <div>hello this is app.vue</div>
+  <div class="bg-yellow-200 h-5">this is bagher</div>
   <router-view />
 </template>
 <script setup></script>

@@ -8,7 +8,7 @@ import * as components from "vuetify/components";
 import * as directives from "vuetify/directives";
 import requests from "./requests";
 import newStore from "@/store/store.js";
-
+import "@/index.css";
 const vuetify = createVuetify({
   components,
   directives,

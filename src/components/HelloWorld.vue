@@ -1,15 +1,15 @@
 <script setup>
-import { ref } from 'vue'
+import { ref } from "vue";
 
 defineProps({
   msg: String,
-})
+});
 
-const count = ref(0)
+const count = ref(0);
 </script>
 
 <template>
-  this is bagher
+  <div class="bg-yellow-200 h-5">this is bagher</div>
 </template>
 
 <style scoped>
