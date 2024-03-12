@@ -1,16 +1,14 @@
-import { createRouter, createWebHistory } from 'vue-router';
-// import Login from "./components/authentication/Login.vue";
+import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
-
   {
-    path: '/hello-world',
-    component: () => import('./components/HelloWorld.vue')
+    path: "/hello-world",
+    component: () => import("@/components/HelloWorld.vue"),
   },
-//   {
-//     path: '/login',
-//     component: () => import(Login)
-//   },
+  {
+    path: "/cdn/:domain_name/:domain_id/https-settings",
+    component: () => import("@/components/cdn/HttpsSetting.vue"),
+  },
 ];
 
 const router = createRouter({

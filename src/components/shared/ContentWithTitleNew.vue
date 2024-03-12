@@ -25,7 +25,6 @@ const props = defineProps(["title", "type", "icon"]);
 </script>
 
 <style scoped lang="scss">
-@import url("@/assets/styles/tw-custom-components.css");
 .ContentWithTitleNew {
   .back-danger {
     background: #ff7474 !important;
