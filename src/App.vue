@@ -1,5 +1,4 @@
 <template>
-  <div>hello this is app.vue</div>
   <component :is="currentLayout">
     <router-view />
   </component>

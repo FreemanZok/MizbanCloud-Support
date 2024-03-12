@@ -9,6 +9,10 @@ import * as directives from "vuetify/directives";
 import requests from "./requests";
 import newStore from "@/store/store.js";
 import "@/index.css";
+////////////////////
+import "@/assets/styles/main.scss";
+
+////////////////////
 const vuetify = createVuetify({
   components,
   directives,
