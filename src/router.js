@@ -1,12 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-import DefaultLayout from "@/layouts/DefaultLayout.vue";
 import PortalView from "@/layouts/PortalView.vue";
-
 const routes = [
   {
     path: "/hello-world",
+    name: "hello-world",
     component: () => import("@/components/HelloWorld.vue"),
-    meta: { layout: "PortalView" }, // Add default layout meta
+    meta: { layout: PortalView },
   },
   {
     path: "/cdn/:domain_name/:domain_id/https-settings",

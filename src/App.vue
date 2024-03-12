@@ -1,9 +1,19 @@
 <template>
   <div>hello this is app.vue</div>
-  <div class="bg-yellow-200 h-5">this is bagher</div>
-  <router-view />
+  <component :is="currentLayout">
+    <router-view />
+  </component>
 </template>
-<script setup></script>
+<script>
+export default {
+  computed: {
+    currentLayout() {
+      const layout = this.$route.meta.layout;
+      return layout ? layout : "PortalView";
+    },
+  },
+};
+</script>
 <style scoped>
 .logo {
   height: 6em;

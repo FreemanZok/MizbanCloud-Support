@@ -4,6 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <div class="wrapper PortalView">
+    is PortalView
     <!-- <CheckUserStatus />
 		<NavBar /> -->
     <div class="inner-wrapper" :class="$newStore.asideStatus ? 'small-me' : ''">
